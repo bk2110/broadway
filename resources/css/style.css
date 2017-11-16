@@ -8,12 +8,17 @@
 	font-weight: bold;
 	color: white;
 	background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+	line-height: 4;
+	border: 1px;
+	border-color: black;
+	margin: 90% 90%;
 }
 
 #nav {
 	font-family: Helvetica;
 	font-size: 18px;
 	color: white;
+	line-height: 2;
 }
 
 h3 span {
@@ -51,14 +56,16 @@ em {
 	background-color: dimgray;
 }
 
-footer nav {
+footer #nav {
 	float: right;
+	background-color: dimgray;
+	text-align: left;
 }
 
 a {
 	color: white;
 }
 
-footer {
+#nav #footer {
 	text-align: left;
 }
