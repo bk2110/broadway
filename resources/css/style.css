@@ -8,17 +8,18 @@
 	font-weight: bold;
 	color: white;
 	background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
-	line-height: 4;
 	border: 1px;
 	border-color: black;
-	margin: 90% 90%;
+	height: 300px;
+	padding-bottom: 100px;
+	
 }
 
 #nav {
 	font-family: Helvetica;
 	font-size: 18px;
 	color: white;
-	line-height: 2;
+	line-height: 1.5;
 }
 
 h3 span {
@@ -38,7 +39,7 @@ h3 {
 p {
 	font-family: Helvetica;
 	font-size: 14px;
-	color: blue;
+	color: black;
 }
 
 h4 {
@@ -49,23 +50,25 @@ h4 {
 	background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
 }
 
-em {
-	font-family: Helvetica;
-	font-size: 11px;
-	color: white;
-	background-color: dimgray;
-}
 
-footer #nav {
-	float: right;
+#footer nav {
+	float: left;
 	background-color: dimgray;
 	text-align: left;
+	color: white;
+	line-height: 2;
+	font-size: 11px;
+	display: inline-flex;
 }
 
 a {
 	color: white;
 }
 
-#nav #footer {
-	text-align: left;
+#footer p {
+	color: white;
+	font-size: 11px;
+	background-color: dimgray;
+
 }
+
